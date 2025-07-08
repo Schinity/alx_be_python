@@ -2,8 +2,8 @@
 
 # numbers input
 # This program performs basic arithmetic operations on two numbers provided by the user.
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))   
+number1 = 10
+number2 = 5   
 
 # arithmetic operations
 
