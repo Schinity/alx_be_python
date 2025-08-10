@@ -21,4 +21,4 @@ class BankAccount:
             return "Withdrawal amount must be positive."
 
     def display_balance(self):
-        return f"Current balance: ${self.__balance}"
+        return f"Current Balance: {self.__balance}"
