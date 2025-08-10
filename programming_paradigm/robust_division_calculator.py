@@ -1,8 +1,8 @@
 def safe_divide(numerator, denominator):
     try:
         # Convert command line arguments to floats
-        numerator = float(input("Enter the numerator: "))
-        denominator = float(input("Enter the denominator: "))
+        numerator = float(numerator)
+        denominator = float(denominator)
         result = numerator / denominator
     except ZeroDivisionError:
         return "Error: Division by zero is not allowed."
