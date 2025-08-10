@@ -12,11 +12,12 @@ class BankAccount:
             return "Deposit amount must be positive."
 
     def withdraw(self, amount):
-        if amount > 0 and amount <= self.__balance:
-            self.__balance -= amount
-            return f"Withdrew {amount}."
-        elif amount > self.__balance:
-            return "Insufficient funds."
+        if amount > 0:
+            if amount <= self.__balance:
+                self.__balance -= amount
+                return f"Withdrew {amount}."
+            else:
+                return "Insufficient funds."
         else:
             return "Withdrawal amount must be positive."
 
