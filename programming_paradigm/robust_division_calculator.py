@@ -1,5 +1,9 @@
+import sys
 def safe_divide(numerator, denominator):
     try:
+        # Convert command line arguments to floats
+        numerator = float(sys.argv[1])
+        denominator = float(sys.argv[2])
         result = numerator / denominator
     except ZeroDivisionError:
         return "Error: Division by zero is not allowed."
