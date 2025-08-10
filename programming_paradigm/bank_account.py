@@ -12,7 +12,7 @@ class BankAccount:
             return "Deposit amount must be positive."
 
     def withdraw(self, amount):
-        if self.__balance > 0 and amount <= self.__balance:
+        if amount > 0 and amount <= self.__balance:
             self.__balance -= amount
             return f"Withdrew {amount}."
         elif amount > self.__balance:
