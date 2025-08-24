@@ -1,0 +1,19 @@
+Write a script that inserts multiple rows in the table customer (database book_store) in your MySQL server. The database name will be passed as an argument of the mysql command
+
+Data insertion
+
+    - `customer_id` = `1`
+    - `customer_name` = `Terence Nmaju`
+    - `email` = `nma@bigtee.io`
+    - `address` = `St. Luke Street`
+
+    - `customer_id` = `2`
+    - `customer_name` = `Tarh Joshua`
+    - `email` = `tarh@bigtee.io`
+    - `address` = `125 Happiness  Ave.`
+
+    - `customer_id` = `4`
+    - `customer_name` = `Tang Chi`
+    - `email` = `tang@bigtee.io`
+    - `address` = `126 Happiness  Ave.`
+
